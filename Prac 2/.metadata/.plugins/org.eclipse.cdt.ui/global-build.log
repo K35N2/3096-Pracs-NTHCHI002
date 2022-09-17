@@ -1,0 +1,867 @@
+11:21:00 **** Clean-only build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 clean 
+rm -rf ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.su
+rm -rf ./Core/Startup/startup_stm32f051r8tx.d ./Core/Startup/startup_stm32f051r8tx.o
+rm -rf ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f0xx_hal_msp.d ./Core/Src/stm32f0xx_hal_msp.o ./Core/Src/stm32f0xx_hal_msp.su ./Core/Src/stm32f0xx_it.d ./Core/Src/stm32f0xx_it.o ./Core/Src/stm32f0xx_it.su ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f0xx.d ./Core/Src/system_stm32f0xx.o ./Core/Src/system_stm32f0xx.su
+rm -rf EEE3096S_2022_Prac_2_Delays_and_I2C.elf EEE3096S_2022_Prac_2_Delays_and_I2C.list EEE3096S_2022_Prac_2_Delays_and_I2C.map default.size.stdout
+ 
+11:21:02 **** Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m0 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f051r8tx.d" -MT"Core/Startup/startup_stm32f051r8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f051r8tx.o" "../Core/Startup/startup_stm32f051r8tx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:20: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long long int' [-Wformat=]
+  158 |  sprintf(buffer, "%d \r\n", 55555555555555);
+      |                   ~^        ~~~~~~~~~~~~~~
+      |                    |        |
+      |                    int      long long int
+      |                   %lld
+../Core/Src/main.c:163:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  163 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:421:10: warning: unused variable 'set_time' [-Wunused-variable]
+  421 |  uint8_t set_time[7];
+      |          ^~~~~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:439:10: warning: unused variable 'get_time' [-Wunused-variable]
+  439 |  uint8_t get_time[7];
+      |          ^~~~~~~~
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f0xx.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f0xx.d" -MT"Core/Src/system_stm32f0xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f0xx.o"
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  14316	    120	   1880	  16316	   3fbc	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+11:21:50 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14316	    120	   1880	  16316	   3fbc	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+11:23:47 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14316	    120	   1880	  16316	   3fbc	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+11:32:49 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:20: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long long int' [-Wformat=]
+  158 |  sprintf(buffer, "%d \r\n", 55555555555555);
+      |                   ~^        ~~~~~~~~~~~~~~
+      |                    |        |
+      |                    int      long long int
+      |                   %lld
+../Core/Src/main.c:163:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  163 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:421:10: warning: unused variable 'set_time' [-Wunused-variable]
+  421 |  uint8_t set_time[7];
+      |          ^~~~~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:439:10: warning: unused variable 'get_time' [-Wunused-variable]
+  439 |  uint8_t get_time[7];
+      |          ^~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  14080	    120	   1880	  16080	   3ed0	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+11:35:13 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  163 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:421:10: warning: unused variable 'set_time' [-Wunused-variable]
+  421 |  uint8_t set_time[7];
+      |          ^~~~~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:439:10: warning: unused variable 'get_time' [-Wunused-variable]
+  439 |  uint8_t get_time[7];
+      |          ^~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  14072	    120	   1880	  16072	   3ec8	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+11:39:18 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  158 |  sprintf(buffer, "%d \r\n", 5);
+      |          ^~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:421:10: warning: unused variable 'set_time' [-Wunused-variable]
+  421 |  uint8_t set_time[7];
+      |          ^~~~~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:439:10: warning: unused variable 'get_time' [-Wunused-variable]
+  439 |  uint8_t get_time[7];
+      |          ^~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  14072	    120	   1880	  16072	   3ec8	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+11:42:26 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  163 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:421:10: warning: unused variable 'set_time' [-Wunused-variable]
+  421 |  uint8_t set_time[7];
+      |          ^~~~~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:439:10: warning: unused variable 'get_time' [-Wunused-variable]
+  439 |  uint8_t get_time[7];
+      |          ^~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  14072	    120	   1880	  16072	   3ec8	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+11:46:17 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:20: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long long int' [-Wformat=]
+  158 |  sprintf(buffer, "%d \r\n", 55555555555555);
+      |                   ~^        ~~~~~~~~~~~~~~
+      |                    |        |
+      |                    int      long long int
+      |                   %lld
+../Core/Src/main.c:163:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  163 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:421:10: warning: unused variable 'set_time' [-Wunused-variable]
+  421 |  uint8_t set_time[7];
+      |          ^~~~~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:439:10: warning: unused variable 'get_time' [-Wunused-variable]
+  439 |  uint8_t get_time[7];
+      |          ^~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  14080	    120	   1880	  16080	   3ed0	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+16:05:43 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14080	    120	   1880	  16080	   3ed0	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+16:06:17 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14080	    120	   1880	  16080	   3ed0	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+16:06:56 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:20: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long long int' [-Wformat=]
+  158 |  sprintf(buffer, "%d \r\n", 55555555555555);
+      |                   ~^        ~~~~~~~~~~~~~~
+      |                    |        |
+      |                    int      long long int
+      |                   %lld
+../Core/Src/main.c:163:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  163 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:421:10: warning: unused variable 'set_time' [-Wunused-variable]
+  421 |  uint8_t set_time[7];
+      |          ^~~~~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:439:10: warning: unused variable 'get_time' [-Wunused-variable]
+  439 |  uint8_t get_time[7];
+      |          ^~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  14316	    120	   1880	  16316	   3fbc	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+16:08:53 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:20: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long long int' [-Wformat=]
+  158 |  sprintf(buffer, "%d \r\n", 55555555555555);
+      |                   ~^        ~~~~~~~~~~~~~~
+      |                    |        |
+      |                    int      long long int
+      |                   %lld
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:421:10: warning: unused variable 'set_time' [-Wunused-variable]
+  421 |  uint8_t set_time[7];
+      |          ^~~~~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:439:10: warning: unused variable 'get_time' [-Wunused-variable]
+  439 |  uint8_t get_time[7];
+      |          ^~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  14320	    140	   1884	  16344	   3fd8	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+13:45:08 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  163 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:167:29: error: 'clockTime' undeclared (first use in this function); did you mean 'flockfile'?
+  167 |  HAL_UART_Transmit(&huart2, clockTime, sizeof(clockTime), 1000);
+      |                             ^~~~~~~~~
+      |                             flockfile
+../Core/Src/main.c:167:29: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:448:44: error: 'FIRST_REG' undeclared (first use in this function)
+  448 |  HAL_I2C_Mem_Write(&hi2c1, DS3231_ADDRESS, FIRST_REG, REG_SIZE, set_time, 7, 1000);
+      |                                            ^~~~~~~~~
+../Core/Src/main.c:448:55: error: 'REG_SIZE' undeclared (first use in this function)
+  448 |  HAL_I2C_Mem_Write(&hi2c1, DS3231_ADDRESS, FIRST_REG, REG_SIZE, set_time, 7, 1000);
+      |                                                       ^~~~~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:464:43: error: 'FIRST_REG' undeclared (first use in this function)
+  464 |  HAL_I2C_Mem_Read(&hi2c1, DS3231_ADDRESS, FIRST_REG, REG_SIZE, get_time, 7, 1000);
+      |                                           ^~~~~~~~~
+../Core/Src/main.c:464:54: error: 'REG_SIZE' undeclared (first use in this function)
+  464 |  HAL_I2C_Mem_Read(&hi2c1, DS3231_ADDRESS, FIRST_REG, REG_SIZE, get_time, 7, 1000);
+      |                                                      ^~~~~~~~
+../Core/Src/main.c:469:33: error: subscripted value is neither array nor pointer nor vector
+  469 |  time.seconds = bcdToDec(getTime[0]);
+      |                                 ^
+../Core/Src/main.c:470:33: error: subscripted value is neither array nor pointer nor vector
+  470 |  time.minutes = bcdToDec(getTime[1]);
+      |                                 ^
+../Core/Src/main.c:471:30: error: subscripted value is neither array nor pointer nor vector
+  471 |  time.hour = bcdToDec(getTime[2]);
+      |                              ^
+../Core/Src/main.c:472:35: error: subscripted value is neither array nor pointer nor vector
+  472 |  time.dayofweek = bcdToDec(getTime[3]);
+      |                                   ^
+../Core/Src/main.c:473:36: error: subscripted value is neither array nor pointer nor vector
+  473 |  time.dayofmonth = bcdToDec(getTime[4]);
+      |                                    ^
+../Core/Src/main.c:474:31: error: subscripted value is neither array nor pointer nor vector
+  474 |  time.month = bcdToDec(getTime[5]);
+      |                               ^
+../Core/Src/main.c:475:30: error: subscripted value is neither array nor pointer nor vector
+  475 |  time.year = bcdToDec(getTime[6]);
+      |                              ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+13:47:09 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  163 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:167:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  167 |  HAL_UART_Transmit(&huart2, unixTime, sizeof(unixTime), 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:448:44: error: 'FIRST_REG' undeclared (first use in this function)
+  448 |  HAL_I2C_Mem_Write(&hi2c1, DS3231_ADDRESS, FIRST_REG, REG_SIZE, set_time, 7, 1000);
+      |                                            ^~~~~~~~~
+../Core/Src/main.c:448:44: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:448:55: error: 'REG_SIZE' undeclared (first use in this function)
+  448 |  HAL_I2C_Mem_Write(&hi2c1, DS3231_ADDRESS, FIRST_REG, REG_SIZE, set_time, 7, 1000);
+      |                                                       ^~~~~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:464:43: error: 'FIRST_REG' undeclared (first use in this function)
+  464 |  HAL_I2C_Mem_Read(&hi2c1, DS3231_ADDRESS, FIRST_REG, REG_SIZE, get_time, 7, 1000);
+      |                                           ^~~~~~~~~
+../Core/Src/main.c:464:54: error: 'REG_SIZE' undeclared (first use in this function)
+  464 |  HAL_I2C_Mem_Read(&hi2c1, DS3231_ADDRESS, FIRST_REG, REG_SIZE, get_time, 7, 1000);
+      |                                                      ^~~~~~~~
+../Core/Src/main.c:469:33: error: subscripted value is neither array nor pointer nor vector
+  469 |  time.seconds = bcdToDec(getTime[0]);
+      |                                 ^
+../Core/Src/main.c:470:33: error: subscripted value is neither array nor pointer nor vector
+  470 |  time.minutes = bcdToDec(getTime[1]);
+      |                                 ^
+../Core/Src/main.c:471:30: error: subscripted value is neither array nor pointer nor vector
+  471 |  time.hour = bcdToDec(getTime[2]);
+      |                              ^
+../Core/Src/main.c:472:35: error: subscripted value is neither array nor pointer nor vector
+  472 |  time.dayofweek = bcdToDec(getTime[3]);
+      |                                   ^
+../Core/Src/main.c:473:36: error: subscripted value is neither array nor pointer nor vector
+  473 |  time.dayofmonth = bcdToDec(getTime[4]);
+      |                                    ^
+../Core/Src/main.c:474:31: error: subscripted value is neither array nor pointer nor vector
+  474 |  time.month = bcdToDec(getTime[5]);
+      |                               ^
+../Core/Src/main.c:475:30: error: subscripted value is neither array nor pointer nor vector
+  475 |  time.year = bcdToDec(getTime[6]);
+      |                              ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+13:55:33 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:166:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  166 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:170:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  170 |  HAL_UART_Transmit(&huart2, unixTime, sizeof(unixTime), 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:472:33: error: subscripted value is neither array nor pointer nor vector
+  472 |  time.seconds = bcdToDec(getTime[0]);
+      |                                 ^
+../Core/Src/main.c:473:33: error: subscripted value is neither array nor pointer nor vector
+  473 |  time.minutes = bcdToDec(getTime[1]);
+      |                                 ^
+../Core/Src/main.c:474:30: error: subscripted value is neither array nor pointer nor vector
+  474 |  time.hour = bcdToDec(getTime[2]);
+      |                              ^
+../Core/Src/main.c:475:35: error: subscripted value is neither array nor pointer nor vector
+  475 |  time.dayofweek = bcdToDec(getTime[3]);
+      |                                   ^
+../Core/Src/main.c:476:36: error: subscripted value is neither array nor pointer nor vector
+  476 |  time.dayofmonth = bcdToDec(getTime[4]);
+      |                                    ^
+../Core/Src/main.c:477:31: error: subscripted value is neither array nor pointer nor vector
+  477 |  time.month = bcdToDec(getTime[5]);
+      |                               ^
+../Core/Src/main.c:478:30: error: subscripted value is neither array nor pointer nor vector
+  478 |  time.year = bcdToDec(getTime[6]);
+      |                              ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:04:18 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:165:10: warning: passing argument 1 of 'sprintf' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  165 |  sprintf(buffer, "%02d:%02d:%02d \r\n", time.hour, time.minutes, time.seconds);
+      |          ^~~~~~
+In file included from ../Core/Src/main.c:29:
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'const char *'
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:166:29: warning: passing argument 2 of 'HAL_UART_Transmit' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  166 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'const char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:169:10: warning: passing argument 1 of 'sprintf' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  169 |  sprintf(unixTime, "%d \r\n", epochFromTime(time));
+      |          ^~~~~~~~
+In file included from ../Core/Src/main.c:29:
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'const char *'
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:170:29: warning: passing argument 2 of 'HAL_UART_Transmit' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  170 |  HAL_UART_Transmit(&huart2, unixTime, sizeof(unixTime), 1000);
+      |                             ^~~~~~~~
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'const char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'getTime':
+../Core/Src/main.c:472:33: error: subscripted value is neither array nor pointer nor vector
+  472 |  time.seconds = bcdToDec(getTime[0]);
+      |                                 ^
+../Core/Src/main.c:473:33: error: subscripted value is neither array nor pointer nor vector
+  473 |  time.minutes = bcdToDec(getTime[1]);
+      |                                 ^
+../Core/Src/main.c:474:30: error: subscripted value is neither array nor pointer nor vector
+  474 |  time.hour = bcdToDec(getTime[2]);
+      |                              ^
+../Core/Src/main.c:475:35: error: subscripted value is neither array nor pointer nor vector
+  475 |  time.dayofweek = bcdToDec(getTime[3]);
+      |                                   ^
+../Core/Src/main.c:476:36: error: subscripted value is neither array nor pointer nor vector
+  476 |  time.dayofmonth = bcdToDec(getTime[4]);
+      |                                    ^
+../Core/Src/main.c:477:31: error: subscripted value is neither array nor pointer nor vector
+  477 |  time.month = bcdToDec(getTime[5]);
+      |                               ^
+../Core/Src/main.c:478:30: error: subscripted value is neither array nor pointer nor vector
+  478 |  time.year = bcdToDec(getTime[6]);
+      |                              ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:09:00 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:166:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  166 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:170:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  170 |  HAL_UART_Transmit(&huart2, unixTime, sizeof(unixTime), 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'epochFromTime':
+../Core/Src/main.c:505:9: warning: 'sum' is used uninitialized in this function [-Wuninitialized]
+  505 |     sum = sum + (time.year - 2022) * 31556926;
+      |     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  18076	    140	   1892	  20108	   4e8c	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+14:10:52 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:8: warning: unused variable 'unixTime' [-Wunused-variable]
+  145 |   char unixTime[14];
+      |        ^~~~~~~~
+../Core/Src/main.c: In function 'epochFromTime':
+../Core/Src/main.c:506:9: warning: 'sum' is used uninitialized in this function [-Wuninitialized]
+  506 |     sum = sum + (time.year - 2022) * 31556926;
+      |     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  11836	     40	   1848	  13724	   359c	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+14:18:32 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:166:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  166 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:170:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  170 |  HAL_UART_Transmit(&huart2, unixTime, sizeof(unixTime), 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'epochFromTime':
+../Core/Src/main.c:505:9: warning: 'sum' is used uninitialized in this function [-Wuninitialized]
+  505 |     sum = sum + (time.year - 2022) * 31556926;
+      |     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  18076	    140	   1892	  20108	   4e8c	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+11:06:56 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:166:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  166 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:170:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  170 |  HAL_UART_Transmit(&huart2, unixTime, sizeof(unixTime), 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'epochFromTime':
+../Core/Src/main.c:506:9: warning: 'sum' is used uninitialized in this function [-Wuninitialized]
+  506 |     sum = sum + (time.year - 2022) * 31556926;
+      |     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  18064	    140	   1892	  20096	   4e80	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+11:11:00 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:166:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  166 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:170:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  170 |  HAL_UART_Transmit(&huart2, unixTime, sizeof(unixTime), 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'epochFromTime':
+../Core/Src/main.c:505:9: warning: 'sum' is used uninitialized in this function [-Wuninitialized]
+  505 |     sum = sum + (time.year - 2022) * 31556926;
+      |     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  18076	    140	   1892	  20108	   4e8c	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+11:18:05 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:166:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  166 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:170:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  170 |  HAL_UART_Transmit(&huart2, unixTime, sizeof(unixTime), 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'epochFromTime':
+../Core/Src/main.c:505:9: warning: 'sum' is used uninitialized in this function [-Wuninitialized]
+  505 |     sum = sum + (time.year - 22) * 31556926;
+      |     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  18068	    140	   1892	  20100	   4e84	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
+11:48:25 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:166:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  166 |  HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:170:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  170 |  HAL_UART_Transmit(&huart2, unixTime, sizeof(unixTime), 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:25:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 2\EEE3096S-2022-main\EEE3096S-2022-main\WorkPackage2\EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf  > "EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  18156	    140	   1892	  20188	   4edc	EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_2_Delays_and_I2C_Student_Version.list
+ 
