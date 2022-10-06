@@ -1,0 +1,62 @@
+17:53:07 **** Incremental Build of configuration Debug for project EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:136:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  136 |    sprintf(ADCvalue, "ADC Value: %d \r\n", adcPolling);
+      |    ^~~~~~~
+../Core/Src/main.c:136:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:24:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   23 | #include "main.h"
+  +++ |+#include <stdio.h>
+   24 | 
+../Core/Src/main.c:136:35: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  136 |    sprintf(ADCvalue, "ADC Value: %d \r\n", adcPolling);
+      |                                  ~^        ~~~~~~~~~~
+      |                                   |        |
+      |                                   int      uint32_t {aka long unsigned int}
+      |                                  %ld
+../Core/Src/main.c:137:31: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  137 |    HAL_UART_Transmit(&huart2, ADCvalue, sizeof(ADCvalue), 1000);
+      |                               ^~~~~~~~
+      |                               |
+      |                               char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:23:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:141:35: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  141 |    sprintf(CRRvalue, "CRR Value: %d \r\n", ADCtoCRR(adcPolling));
+      |                                  ~^        ~~~~~~~~~~~~~~~~~~~~
+      |                                   |        |
+      |                                   int      uint32_t {aka long unsigned int}
+      |                                  %ld
+../Core/Src/main.c:142:31: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  142 |    HAL_UART_Transmit(&huart2, CRRvalue, sizeof(CRRvalue), 1000);
+      |                               ^~~~~~~~
+      |                               |
+      |                               char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:289,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:23:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:1528:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+ 1528 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\STM32F051R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf
+ 
+arm-none-eabi-size   EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf 
+arm-none-eabi-objdump -h -S  EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf  > "EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.list"
+   text	   data	    bss	    dec	    hex	filename
+  20516	    124	   1996	  22636	   586c	EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf
+Finished building: default.size.stdout
+ 
+Finished building: EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.list
+ 
+
+17:53:42 Build Finished. 0 errors, 6 warnings. (took 35s.160ms)
+

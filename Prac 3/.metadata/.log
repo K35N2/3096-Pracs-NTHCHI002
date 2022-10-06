@@ -1,0 +1,253 @@
+!SESSION 2022-09-17 15:04:34.615 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-17 15:05:19.592
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-17 15:05:19.733
+!MESSAGE Log4j initialized with config file D:\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-17 15:05:29.831
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-17 15:05:44.616
+!MESSAGE Indexed 'EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version' (25 sources, 103 headers) in 2.84 sec: 8,888 declarations; 52,586 references; 6 unresolved inclusions; 321 syntax errors; 1,300 unresolved names (2.1%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-09-17 15:12:30.612
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-09-17 15:13:53.106
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-09-17 15:14:21.941
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-09-17 15:14:59.793
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-09-17 15:15:57.366
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-09-17 15:16:47.863
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2022-09-17 15:17:41.296
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+load "D:\\OneDrive\\UCT YEAR 3\\EEE3096S\\Practicals\\Prac 3\\WorkPackage3\\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\\Debug\\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf" 
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Not a directory.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+load "D:\\OneDrive\\UCT YEAR 3\\EEE3096S\\Practicals\\Prac 3\\WorkPackage3\\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\\Debug\\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf" 
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Not a directory.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Failed to execute MI command:
+load "D:\\OneDrive\\UCT YEAR 3\\EEE3096S\\Practicals\\Prac 3\\WorkPackage3\\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\\Debug\\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf" 
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Not a directory.
+java.lang.Exception: Remote communication error.  Target disconnected.: Not a directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10004 2022-09-17 15:17:41.297
+!MESSAGE Failed to execute MI command:
+load "D:\\OneDrive\\UCT YEAR 3\\EEE3096S\\Practicals\\Prac 3\\WorkPackage3\\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\\Debug\\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf" 
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Not a directory.
+!SUBENTRY 2 org.eclipse.cdt.dsf.gdb 4 10004 2022-09-17 15:17:41.297
+!MESSAGE Failed to execute MI command:
+load "D:\\OneDrive\\UCT YEAR 3\\EEE3096S\\Practicals\\Prac 3\\WorkPackage3\\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\\Debug\\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf" 
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Not a directory.
+!STACK 0
+java.lang.Exception: Remote communication error.  Target disconnected.: Not a directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SESSION 2022-09-17 15:28:31.535 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-17 15:28:53.933
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-17 15:28:54.102
+!MESSAGE Log4j initialized with config file C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-17 15:29:09.160
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-09-18 11:50:41.989 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-18 11:50:53.825
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-18 11:50:54.002
+!MESSAGE Log4j initialized with config file C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-18 11:51:07.670
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2022-09-18 13:33:37.924
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\Debug\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2022-09-18 13:33:37.924
+!MESSAGE C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\Debug\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf not found
+!STACK 0
+java.io.FileNotFoundException: C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\Debug\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2022-09-18 13:35:12.135
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\Debug\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2022-09-18 13:35:12.135
+!MESSAGE C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\Debug\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf not found
+!STACK 0
+java.io.FileNotFoundException: C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\Debug\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2022-09-18 13:36:06.824
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\Debug\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2022-09-18 13:36:06.825
+!MESSAGE C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\Debug\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf not found
+!STACK 0
+java.io.FileNotFoundException: C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version\Debug\EEE3096S_2022_Prac_3_ADCs_Interrupts_and_PWM_Student_Version.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-09-20 12:03:43.058 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-20 12:04:43.404
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-20 12:04:43.759
+!MESSAGE Log4j initialized with config file C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-20 12:05:04.880
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-09-20 13:17:43.371 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-20 13:17:55.480
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-20 13:17:55.662
+!MESSAGE Log4j initialized with config file C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-20 13:18:09.055
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-09-20 16:42:23.387 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-20 16:42:36.973
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-20 16:42:37.141
+!MESSAGE Log4j initialized with config file C:\Users\PC-USER\OneDrive\UCT YEAR 3\EEE3096S\Practicals\Prac 3\WorkPackage3\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-20 16:42:49.766
+!MESSAGE Started RMI Server, listening on port 41338
